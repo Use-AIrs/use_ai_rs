@@ -1,0 +1,63 @@
+﻿locationGroupIdentifier,locations.locationIdentifier,locationGroupType,locationGroupName,sourceLink
+N-Reg,FAA - Washington,CUSTOMER,Northern region,http://lighttree.com/N-Reg
+N-Reg,QPWD - Ville de Québec,CUSTOMER,Northern region,http://lighttree.com/N-Reg
+N-Reg,MAHD - Boston,CUSTOMER,Northern region,http://lighttree.com/N-Reg
+N-Reg,NYDOT - New Rochelle,CUSTOMER,Northern region,http://lighttree.com/N-Reg
+N-US-Supp,Alumi-lux - Nashua,SUPPLIER,North US Suppliers,http://lighttree.com/N-US-Supp
+N-US-Supp,Amos - Philadelphia,SUPPLIER,North US Suppliers,http://lighttree.com/N-US-Supp
+N-US-Supp,Benchmark - Wheaton,SUPPLIER,North US Suppliers,http://lighttree.com/N-US-Supp
+N-US-Supp,Core - Saranac Lake,SUPPLIER,North US Suppliers,http://lighttree.com/N-US-Supp
+N-US-Supp,F & M - Columbus,SUPPLIER,North US Suppliers,http://lighttree.com/N-US-Supp
+N-US-Supp,Flexilux - Worcester,SUPPLIER,North US Suppliers,http://lighttree.com/N-US-Supp
+N-US-Supp,Glickman - Waterford,SUPPLIER,North US Suppliers,http://lighttree.com/N-US-Supp
+N-US-Supp,Howard - Vineyard Haven,SUPPLIER,North US Suppliers,http://lighttree.com/N-US-Supp
+N-US-Supp,Lex - Ocean Pines,SUPPLIER,North US Suppliers,http://lighttree.com/N-US-Supp
+N-US-Supp,McGrey - Mt Sterling,SUPPLIER,North US Suppliers,http://lighttree.com/N-US-Supp
+N-US-Supp,Mueller - Pittsburgh,SUPPLIER,North US Suppliers,http://lighttree.com/N-US-Supp
+N-US-Supp,Plastico - Glen Allen,SUPPLIER,North US Suppliers,http://lighttree.com/N-US-Supp
+N-US-Supp,Press - Albany,SUPPLIER,North US Suppliers,http://lighttree.com/N-US-Supp
+N-US-Supp,R.G.D. - Oxon Hill,SUPPLIER,North US Suppliers,http://lighttree.com/N-US-Supp
+N-US-Supp,Ripley - Trenton,SUPPLIER,North US Suppliers,http://lighttree.com/N-US-Supp
+N-US-Supp,RLP - Troy,SUPPLIER,North US Suppliers,http://lighttree.com/N-US-Supp
+N-US-Supp,RSQ - Narragansett,SUPPLIER,North US Suppliers,http://lighttree.com/N-US-Supp
+N-US-Supp,SilverOptics - Dover,SUPPLIER,North US Suppliers,http://lighttree.com/N-US-Supp
+N-US-Supp,Thermal - Cincinnati,SUPPLIER,North US Suppliers,http://lighttree.com/N-US-Supp
+N-US-Supp,Total Source - Waukesha,SUPPLIER,North US Suppliers,http://lighttree.com/N-US-Supp
+N-US-Supp,NatEx - Pawtucket,CARRIER,North US Suppliers,http://lighttree.com/N-US-Supp
+N-US-Supp,UXS - Madison,CARRIER,North US Suppliers,http://lighttree.com/N-US-Supp
+N-US-Supp,RPS - Philadelphia,CARRIER,North US Suppliers,http://lighttree.com/N-US-Supp
+S-Reg,KYTC - Lexington,CUSTOMER,Southern region,http://lighttree.com/S-Reg
+S-US-Supp,Autonomic - Morgantown,SUPPLIER,South US Suppliers,http://lighttree.com/S-US-Supp
+S-US-Supp,EM - Hemphill,SUPPLIER,South US Suppliers,http://lighttree.com/S-US-Supp
+S-US-Supp,Gaylor - Ocean Springs,SUPPLIER,South US Suppliers,http://lighttree.com/S-US-Supp
+S-US-Supp,Gemini - Dallas,SUPPLIER,South US Suppliers,http://lighttree.com/S-US-Supp
+S-US-Supp,Groulsh - Charleston,SUPPLIER,South US Suppliers,http://lighttree.com/S-US-Supp
+S-US-Supp,J&R - Montgomery,SUPPLIER,South US Suppliers,http://lighttree.com/S-US-Supp
+S-US-Supp,Litesource - San Antonio,SUPPLIER,South US Suppliers,http://lighttree.com/S-US-Supp
+S-US-Supp,Luminar - Palm Beach Gardens,SUPPLIER,South US Suppliers,http://lighttree.com/S-US-Supp
+S-US-Supp,Paltronix - Wilmington,SUPPLIER,South US Suppliers,http://lighttree.com/S-US-Supp
+S-US-Supp,SA - Loretto,SUPPLIER,South US Suppliers,http://lighttree.com/S-US-Supp
+S-US-Supp,Salco - Atlanta,SUPPLIER,South US Suppliers,http://lighttree.com/S-US-Supp
+S-US-Supp,Special - Southlake,SUPPLIER,South US Suppliers,http://lighttree.com/S-US-Supp
+S-US-Supp,AFX - El Paso,CARRIER,South US Suppliers,http://lighttree.com/S-US-Supp
+UK-Supp,LightLens - Ipswich ,SUPPLIER,UK Suppliers,http://lighttree.com/UK-Supp
+W-Reg,COLA - Los Alamos,CUSTOMER,Western region,http://lighttree.com/W-Reg
+W-Reg,CALTRAN - San Diego,CUSTOMER,Western region,http://lighttree.com/W-Reg
+W-Reg,AHTD - Bentonville,CUSTOMER,Western region,http://lighttree.com/W-Reg
+W-US-Supp,Brewers - Phoenix,SUPPLIER,West US Suppliers,http://lighttree.com/W-US-Supp
+W-US-Supp,Corporal - Tulsa,SUPPLIER,West US Suppliers,http://lighttree.com/W-US-Supp
+W-US-Supp,Exclusive - Billings,SUPPLIER,West US Suppliers,http://lighttree.com/W-US-Supp
+W-US-Supp,Hardy - Salina,SUPPLIER,West US Suppliers,http://lighttree.com/W-US-Supp
+W-US-Supp,Holloway - Phoenix,SUPPLIER,West US Suppliers,http://lighttree.com/W-US-Supp
+W-US-Supp,Interalloy - Bozeman,SUPPLIER,West US Suppliers,http://lighttree.com/W-US-Supp
+W-US-Supp,Lorel - Sioux Falls,SUPPLIER,West US Suppliers,http://lighttree.com/W-US-Supp
+W-US-Supp,Plastilite - Scottsdale,SUPPLIER,West US Suppliers,http://lighttree.com/W-US-Supp
+W-US-Supp,Plexilux - Springfield,SUPPLIER,West US Suppliers,http://lighttree.com/W-US-Supp
+W-US-Supp,R&J - Vancouver,SUPPLIER,West US Suppliers,http://lighttree.com/W-US-Supp
+W-US-Supp,Robinson - Sacramento,SUPPLIER,West US Suppliers,http://lighttree.com/W-US-Supp
+W-US-Supp,Rylo - Spiro,SUPPLIER,West US Suppliers,http://lighttree.com/W-US-Supp
+W-US-Supp,Southwestern - Woodland,SUPPLIER,West US Suppliers,http://lighttree.com/W-US-Supp
+W-US-Supp,Venice - Artesia,SUPPLIER,West US Suppliers,http://lighttree.com/W-US-Supp
+W-US-Supp,Dunham - Centralia,CARRIER,West US Suppliers,http://lighttree.com/W-US-Supp
+W-US-Supp,TransOceanic - Slater,CARRIER,West US Suppliers,http://lighttree.com/W-US-Supp
+W-US-Supp,TranEx - Kansas City,CARRIER,West US Suppliers,http://lighttree.com/W-US-Supp

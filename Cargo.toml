@@ -1,0 +1,12 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/lib-core",
+    "crates/lib-model",
+    "crates/lib-staging",
+    "crates/lib-test",
+    "crates/playground",
+]
+
+[profile.release]
+debug = true

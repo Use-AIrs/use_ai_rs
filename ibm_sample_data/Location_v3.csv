@@ -1,0 +1,65 @@
+﻿locationIdentifier,locationType,locationName,address1,address2,city,postalCode,stateProvince,country,coordinates,includeInCorrelation,geo,sourceLink
+LT-1,OPERATIONS,LightTree Plant 1 Birmingham,451 24th St N,,Birmingham,35203,AL,USA,"33.5206608, -86.80249",TRUE,AMERICAS,http://lighttree.com/LT-1
+LT-2,OPERATIONS,LightTree Plant 2 Tuscaloosa,2436 University Blvd,,Tuscaloosa,35401,AL,USA,"33.2098407, -87.5691735",TRUE,AMERICAS,http://lighttree.com/LT-2
+Alumi-lux - Nashua,SUPPLIER,Alumi-lux Metal Products - Nashua,5 Main St,,Nashua,3064,NH,USA,"42.7653662, -71.467566",TRUE,AMERICAS,http://lighttree.com/Alumi-lux - Nashua
+Amos - Philadelphia,SUPPLIER,Amos Wire Products Inc - Philadelphia,1500 PA-3,,Philadelphia,19102,PA,USA,"39.9525839, -75.1652215",TRUE,AMERICAS,http://lighttree.com/Amos - Philadelphia
+Autonomic - Morgantown,SUPPLIER,Autonomic Specialties - Morgantown,341-349 Oakland St,,Morgantown,26505,WV,USA,"39.6478662, -79.966415",TRUE,AMERICAS,http://lighttree.com/Autonomic - Morgantown
+Benchmark - Wheaton,SUPPLIER,Benchmark Lighting - Wheaton,2100 Willow Run,,Wheaton,60189,IL,USA,"41.8461274, -88.1378685",TRUE,AMERICAS,http://lighttree.com/Benchmark - Wheaton
+Brewers - Phoenix,SUPPLIER,Brewers Manufacturing - Phoenix,22 W Washington St,,Phoenix,85004,AZ,USA,"33.4483771, -112.0740373",TRUE,AMERICAS,http://lighttree.com/Brewers - Phoenix
+Core - Saranac Lake,SUPPLIER,Core Components of North America - Saranac Lake,272 Forest Hill Ave,,Saranac Lake,12983,NY,USA,"44.329257, -74.116497",TRUE,AMERICAS,http://lighttree.com/Core - Saranac Lake
+Corporal - Tulsa,SUPPLIER,Corporal Brass - Tulsa,199 South Boulder Ave W,,Tulsa,74103,OK,USA,"36.1539816, -95.992775",TRUE,AMERICAS,http://lighttree.com/Corporal - Tulsa
+EM - Hemphill,SUPPLIER,Engineered Materials - Hemphill,110 Market St,,Hemphill,75948,TX,USA,"31.4325167, -93.8466981",TRUE,AMERICAS,http://lighttree.com/EM - Hemphill
+Exclusive - Billings,SUPPLIER,Exclusive Plastics - Billings,2417 I-90BL,,Billings,59101,MT,USA,"45.7832856, -108.5006904",TRUE,AMERICAS,http://lighttree.com/Exclusive - Billings
+F & M - Columbus,SUPPLIER,F & M Metals - Columbus,37-39 US-33,,Columbus,43215,OH,USA,"39.9611755, -82.9987942",TRUE,AMERICAS,http://lighttree.com/F & M - Columbus
+Flexilux - Worcester,SUPPLIER,Flexilux Industries - Worcester,455 Main St,,Worcester,1608,MA,USA,"42.2625932, -71.8022934",TRUE,AMERICAS,http://lighttree.com/Flexilux - Worcester
+Gaylor - Ocean Springs,SUPPLIER,Gaylor Design - Ocean Springs,515 Washington Ave,,Ocean Springs,39564,MS,USA,"30.4113097, -88.8278057",TRUE,AMERICAS,http://lighttree.com/Gaylor - Ocean Springs
+Gemini - Dallas,SUPPLIER,Gemini Design Technology - Dallas,1502 Marilla St,,Dallas,75201,TX,USA,"32.7766642, -96.7969879",TRUE,AMERICAS,http://lighttree.com/Gemini - Dallas
+Glickman - Waterford,SUPPLIER,Glickman Lighting - Waterford,1218 Waterford Rd,,Waterford,4088,ME,USA,"44.2117358, -70.682008",TRUE,AMERICAS,http://lighttree.com/Glickman - Waterford
+Groulsh - Charleston,SUPPLIER,Groulsh Industries - Charleston,201-299 Dickinson St,,Charleston,25301,WV,USA,"38.3498195, -81.6326234",TRUE,AMERICAS,http://lighttree.com/Groulsh - Charleston
+Hardy - Salina,SUPPLIER,Hardy Industries - Salina,101-117 S 8th St,,Salina,67401,KS,USA,"38.8402805, -97.6114237",TRUE,AMERICAS,http://lighttree.com/Hardy - Salina
+Holloway - Phoenix,SUPPLIER,Holloway Lighting Parts - Phoenix,4010 W Buckeye Rd,,Phoenix,85009,AZ,USA,"33.4376, -112.146079",TRUE,AMERICAS,http://lighttree.com/Holloway - Phoenix
+Howard - Vineyard Haven,SUPPLIER,Howard Plastics - Vineyard Haven,6 Sumner Cir,,Vineyard Haven,2568,MA,USA,"41.4403894, -70.6578064",TRUE,AMERICAS,http://lighttree.com/Howard - Vineyard Haven
+Interalloy - Bozeman,SUPPLIER,Interalloy Corporation - Bozeman,200-298 W Babcock St,,Bozeman,59715,MT,USA,"45.677978, -111.040723",TRUE,AMERICAS,http://lighttree.com/Interalloy - Bozeman
+J&R - Montgomery,SUPPLIER,J&R Plastics - Montgomery,801-851 AL-21,,Montgomery,36104,AL,USA,"32.3668052, -86.2999689",TRUE,AMERICAS,http://lighttree.com/J&R - Montgomery
+Lex - Ocean Pines,SUPPLIER,Lex Filters - Ocean Pines,212 Mumford Landing Rd,,Ocean Pines,21811,MD,USA,"38.3885305, -75.1334013",TRUE,AMERICAS,http://lighttree.com/Lex - Ocean Pines
+LightLens - Ipswich ,SUPPLIER,LightLens Industries - Ipswich ,12 Brazier's Wood Rd,,Ipswich ,0RZ,IP3,UK,"52.0305506, 1.1865023",TRUE,UKI,http://lighttree.com/LightLens - Ipswich 
+Litesource - San Antonio,SUPPLIER,Litesource Chrystal - San Antonio,1777 I- 410 Access Rd,,San Antonio,78217,TX,USA,"29.5170299, -98.4364486",TRUE,AMERICAS,http://lighttree.com/Litesource - San Antonio
+Lorel - Sioux Falls,SUPPLIER,Lorel Lamps Parts - Sioux Falls,312 S Minnesota Ave,,Sioux Falls,57104,SD,USA,"43.5445959, -96.7311034",TRUE,AMERICAS,http://lighttree.com/Lorel - Sioux Falls
+Luminar - Palm Beach Gardens,SUPPLIER,Luminar Lines - Palm Beach Gardens,411 4th Terrace,,Palm Beach Gardens,33418,FL,USA,"26.8360229, -80.1342216",TRUE,AMERICAS,http://lighttree.com/Luminar - Palm Beach Gardens
+McGrey - Mt Sterling,SUPPLIER,McGrey Electrical - Mt Sterling,1221-1798 Cr-1024,,Mt Sterling,40353,KY,USA,"38.0740561, -83.9073128",TRUE,AMERICAS,http://lighttree.com/McGrey - Mt Sterling
+Mueller - Pittsburgh,SUPPLIER,Mueller OEM - Pittsburgh,1101-1115 Wilhelm Ave,,Pittsburgh,15236,PA,USA,"40.3252558, -79.9889288",TRUE,AMERICAS,http://lighttree.com/Mueller - Pittsburgh
+Paltronix - Wilmington,SUPPLIER,Paltronix - Wilmington,719 S 3rd St,,Wilmington,28401,NC,USA,"34.2257255, -77.9447102",TRUE,AMERICAS,http://lighttree.com/Paltronix - Wilmington
+Plastico - Glen Allen,SUPPLIER,Plastico - Glen Allen,11699-11799 Bent Pine Rd,,Glen Allen,23059,VA,USA,"37.6768619, -77.4853955",TRUE,AMERICAS,http://lighttree.com/Plastico - Glen Allen
+Plastilite - Scottsdale,SUPPLIER,Plastilite Corporation - Scottsdale,8000-8130 N 86th Pl,,Scottsdale,85258,AZ,USA,"33.5541151, -111.8954292",TRUE,AMERICAS,http://lighttree.com/Plastilite - Scottsdale
+Plexilux - Springfield,SUPPLIER,Plexilux - Springfield,3636 S Campbell Ave,,Springfield,65807,MO,USA,"37.1480273, -93.2946284",TRUE,AMERICAS,http://lighttree.com/Plexilux - Springfield
+Press - Albany,SUPPLIER,Press Lite Industries - Albany,48-56 Washington Ave,,Albany,12210,NY,USA,"42.6525793, -73.7562317",TRUE,AMERICAS,http://lighttree.com/Press - Albany
+R&J - Vancouver,SUPPLIER,R&J Lamp Supply - Vancouver,16000 NE 22nd St,,Vancouver,98684,WA,USA,"45.6388512, -122.5080781",TRUE,AMERICAS,http://lighttree.com/R&J - Vancouver
+R.G.D. - Oxon Hill,SUPPLIER,R.G.D. Lighting Components - Oxon Hill,5008-5100 Brookhaven Ct,,Oxon Hill,20745,MD,USA,"38.8197624, -76.9856127",TRUE,AMERICAS,http://lighttree.com/R.G.D. - Oxon Hill
+Ripley - Trenton,SUPPLIER,Ripley Controls - Trenton,572-598 Chambers St,,Trenton,8609,NJ,USA,"40.2170534, -74.7429384",TRUE,AMERICAS,http://lighttree.com/Ripley - Trenton
+RLP - Troy,SUPPLIER,RLP Lighting Components - Troy,5991 Livernois Rd,,Troy,48098,MI,USA,"42.6064095, -83.1497751",TRUE,AMERICAS,http://lighttree.com/RLP - Troy
+Robinson - Sacramento,SUPPLIER,Robinson Glass - Sacramento,900-924 9th St,,Sacramento,95814,CA,USA,"38.5815719, -121.4943996",TRUE,AMERICAS,http://lighttree.com/Robinson - Sacramento
+RSQ - Narragansett,SUPPLIER,RSQ Lighting - Narragansett,5 Delray Dr,,Narragansett,2882,RI,USA,"41.4059065, -71.4900901",TRUE,AMERICAS,http://lighttree.com/RSQ - Narragansett
+Rylo - Spiro,SUPPLIER,Rylo Thermic Shields - Spiro,23004 Co Rd E1260,,Spiro,74959,OK,USA,"35.1889858, -94.6607793",TRUE,AMERICAS,http://lighttree.com/Rylo - Spiro
+SA - Loretto,SUPPLIER,SA Lighting - Loretto,85-299 Rabbit Town Rd,,Loretto,38469,TN,USA,"35.0341906, -87.3953137",TRUE,AMERICAS,http://lighttree.com/SA - Loretto
+Salco - Atlanta,SUPPLIER,Salco - Atlanta,206 Washington St SW,,Atlanta,30334,GA,USA,"33.7489954, -84.3879824",TRUE,AMERICAS,http://lighttree.com/Salco - Atlanta
+SilverOptics - Dover,SUPPLIER,SilverOptics - Dover,201 S State St,,Dover,19904,DE,USA,"39.158168, -75.5243682",TRUE,AMERICAS,http://lighttree.com/SilverOptics - Dover
+Southwestern - Woodland,SUPPLIER,Southwestern Louver Company - Woodland,300-308 East St,,Woodland,95776,CA,USA,"38.679113, -121.7659127",TRUE,AMERICAS,http://lighttree.com/Southwestern - Woodland
+Special - Southlake,SUPPLIER,Special Effects Light Co - Southlake,3135-3145 Merrimac Ct,,Southlake,76092,TX,USA,"32.9300384, -97.1997656",TRUE,AMERICAS,http://lighttree.com/Special - Southlake
+Thermal - Cincinnati,SUPPLIER,Thermal Surface Systems - Cincinnati,25-99 Gano St,,Cincinnati,45202,OH,USA,"39.1031182, -84.5120196",TRUE,AMERICAS,http://lighttree.com/Thermal - Cincinnati
+Total Source - Waukesha,SUPPLIER,Total Source Extrusion Corporation - Waukesha,2 Brook St,,Waukesha,53188,WI,USA,"43.013853, -88.2341556",TRUE,AMERICAS,http://lighttree.com/Total Source - Waukesha
+Venice - Artesia,SUPPLIER,Venice Lamp and Shade - Artesia,207 N 5th St,,Artesia,88210,NM,USA,"32.843623, -104.40286",TRUE,AMERICAS,http://lighttree.com/Venice - Artesia
+AFX - El Paso,CARRIER,Air Freight Express - El Paso,501-599 E Mills Ave,,El Paso,79901,TX,USA,"31.7618778, -106.4850217",TRUE,AMERICAS,http://lighttree.com/AFX - El Paso
+Dunham - Centralia,CARRIER,Dunham Lines - Centralia,209 W Roanoke St,,Centralia,98531,WA,USA,"46.7411315, -122.9556904",TRUE,AMERICAS,http://lighttree.com/Dunham - Centralia
+NatEx - Pawtucket,CARRIER,NatEx - Pawtucket,182 Pullen Ave,,Pawtucket,2861,RI,USA,"41.8817178, -71.3527473",TRUE,AMERICAS,http://lighttree.com/NatEx - Pawtucket
+TransOceanic - Slater,CARRIER,TransOceanic - Slater,100-198 Porter St,,Slater,65349,MO,USA,"39.2180805, -93.0690852",TRUE,AMERICAS,http://lighttree.com/TransOceanic - Slater
+UXS - Madison,CARRIER,UXS - Madison,975 University Ave,,Madison,53706,WI,USA,"43.0730517, -89.4012302",TRUE,AMERICAS,http://lighttree.com/UXS - Madison
+TranEx - Kansas City,CARRIER,TranEx - Kansas City,1200 Oak St,,Kansas City,64106,MO,USA,"39.0997265, -94.5785667",TRUE,AMERICAS,http://lighttree.com/TranEx - Kansas City
+RPS - Philadelphia,CARRIER,RPS - Philadelphia,1500 PA-3,,Philadelphia,19102,PA,USA,"39.9525839, -75.1652215",TRUE,AMERICAS,http://lighttree.com/RPS - Philadelphia
+FAA - Washington,CUSTOMER,Federal Aviation Administration (FAA) - Washington,1 Scott Cir NW,,Washington,20036,DC,USA,"38.9071923, -77.0368707",TRUE,AMERICAS,http://lighttree.com/FAA - Washington
+COLA - Los Alamos,CUSTOMER,City of Los Alamos - Los Alamos,2175-2201 Trinity Dr,,Los Alamos,87544,NM,USA,"35.8800364, -106.3031138",TRUE,AMERICAS,http://lighttree.com/COLA - Los Alamos
+QPWD - Ville de Québec,CUSTOMER,Quebec Public Works Department - Ville de Québec,43 Côte de la Fabrique,,Ville de Québec,G1R,QC,Canada,"46.8138783, -71.2079809",TRUE,AMERICAS,http://lighttree.com/QPWD - Ville de Québec
+MAHD - Boston,CUSTOMER,Massachusetts Highway Department (Mass Highway) - Boston,1 Cambridge St,,Boston,2114,MA,USA,"42.3600825, -71.0588801",TRUE,AMERICAS,http://lighttree.com/MAHD - Boston
+KYTC - Lexington,CUSTOMER,Kentucky Transportation Cabinet (KYTC) - Lexington,404 S Limestone,,Lexington,40508,KY,USA,"38.0405837, -84.5037164",TRUE,AMERICAS,http://lighttree.com/KYTC - Lexington
+NYDOT - New Rochelle,CUSTOMER,New York Department of Transportation - New Rochelle,260 North Ave,,New Rochelle,10801,NY,USA,"40.9114882, -73.7823549",TRUE,AMERICAS,http://lighttree.com/NYDOT - New Rochelle
+CALTRAN - San Diego,CUSTOMER,California Department of Transportation (Caltrans) - San Diego,402w Broadway,,San Diego,92101,CA,USA,"32.715738, -117.1610838",TRUE,AMERICAS,http://lighttree.com/CALTRAN - San Diego
+AHTD - Bentonville,CUSTOMER,Arkansas State Highway and Transportation Dept (AHTD) - Bentonville,100-198 N Main St,,Bentonville,72712,AR,USA,"36.3728538, -94.2088172",TRUE,AMERICAS,http://lighttree.com/AHTD - Bentonville
