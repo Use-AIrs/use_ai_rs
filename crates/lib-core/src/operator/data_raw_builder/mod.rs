@@ -1,8 +1,9 @@
 pub mod data_from_csv;
 
-use crate::error::Result;
 use ndarray::{Array1, Array2};
 use std::collections::HashMap;
+
+use crate::error::Result;
 
 #[derive(Debug)]
 pub struct DataRaw {

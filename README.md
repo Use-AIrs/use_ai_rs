@@ -41,7 +41,7 @@ This component provides mathematical and logical operations, optimized for paral
 - Smaller dimensions may perform better on the CPU.
 - We maintain flexibility to map operations to either the GPU or CPU based on workload.
 
-### Layer 1.1: Data Processing
+### Layer 1.1: Operator
 
 #### 1.1.0: DataRawBuilder
 

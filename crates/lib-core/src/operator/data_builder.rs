@@ -1,5 +1,7 @@
 use crate::error::Result;
 use crate::operator::data_raw_builder::DataRaw;
+use burn::backend::Wgpu;
+use burn::tensor::Tensor;
 
 pub struct Model {
     id: usize,
@@ -15,7 +17,7 @@ pub struct Mdata {}
 pub struct Data {
     id: usize,
     model: Model,
-    data: Mdata,
+    data: Tensor<Wgpu, 2>,
 }
 
 //Here we take a value to prepare data for a specific model

@@ -1,5 +1,3 @@
-#![allow(dead_code, unused_imports, path_statements)]
-
 use csv::ReaderBuilder;
 use ndarray::{stack, Array1, Array2, Axis};
 use rayon::prelude::*;
@@ -15,7 +13,7 @@ pub struct CsvRaw {
 }
 
 pub fn csv_data() -> Result<CsvRaw> {
-    let file_path = "./ibm_sample_data/DemandPlan_v1.csv";
+    let file_path = "../../ibm_sample_data/DemandPlan_v1.csv";
 
     let mut rdr = ReaderBuilder::new()
         .has_headers(true)
