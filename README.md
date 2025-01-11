@@ -9,6 +9,8 @@ For production coding we will focus on implementing reinforcement learning (RL) 
 Q-Networks.
 As well ensemble learning algorithm are planed. In the first Iteration we will use gradient based decision trees (GBDT).
 
+[Here](https://github.com/Use-AIrs/use-ai.rs/discussions/1) a blog for current insights in the tought process.
+
 ## Layer 0: GPU
 
 The first idea was to go with [rust-gpu](https://github.com/Rust-GPU/rust-gpu/) for the GPU layer. But since we
