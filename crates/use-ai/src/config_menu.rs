@@ -14,15 +14,28 @@ pub fn config_menu() -> Result<()> {
 
         let selection = Select::new("Configuration:", con_menu)
             .with_help_message("Here you can load, list, import and create configurations.")
-            .prompt()?;
+            .prompt();
 
         match selection {
-            "Load Config" => load_config()?,
-            "List Configs" => list_config()?,
-            "Import" => import_config()?,
-            "New Config" => new_config(),
-            "Back" => {
-                return Ok(());
+            Ok("Load Config") => {
+                if let Err(e) = load_config() {
+                    eprintln!("Error loading configuration: {}", e);
+                }
+            }
+            Ok("List Configs") => {
+                if let Err(e) = list_config() {
+                    eprintln!("Error listing configurations: {}", e);
+                }
+            }
+            Ok("Import") => {
+                if let Err(e) = import_config() {
+                    eprintln!("Error importing configuration: {}", e);
+                }
+            }
+            Ok("New Config") => new_config(),
+            Ok("Back") => return Ok(()),
+            Err(e) => {
+                eprintln!("Error in menu selection: {}", e);
             }
             _ => (),
         }

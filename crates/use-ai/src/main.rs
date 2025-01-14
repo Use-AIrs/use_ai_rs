@@ -12,7 +12,7 @@ fn main() -> Result<()> {
         let main_menu = vec!["Start", "Config", "Exit"];
 
         let selection = Select::new("Welcome to Use-AI.rs! Please select:", main_menu)
-            .with_help_message("Here we find the highest level of abstraction! You can test with your Data the feature set of Use-AI.rs")
+            .with_help_message("Use the arrow keys to navigate and press Enter to select.")
             .prompt()?;
 
         match selection {
