@@ -1,0 +1,16 @@
+id,age,salary,department,city,score,status
+1,25,3500.50,Sales,New York,87.2,Active
+2,42,5800.00,IT,Berlin,74.0,Active
+3,31,4200.75,HR,London,92.5,Inactive
+4,28,4000.00,Sales,Berlin,66.3,Active
+5,37,6250.20,Engineering,Tokyo,88.1,Retired
+6,29,3100.00,Sales,Paris,55.0,Active
+7,45,7900.40,IT,New York,81.9,Active
+8,54,9100.00,HR,Tokyo,77.5,Inactive
+9,41,5600.00,Engineering,Berlin,90.0,Active
+10,33,4050.10,IT,Sydney,83.4,Retired
+11,27,3200.00,HR,Paris,60.5,Active
+12,39,7100.00,Engineering,London,95.3,Inactive
+13,50,9950.99,Sales,New York,85.0,Retired
+14,36,6100.00,IT,Tokyo,70.8,Active
+15,43,6300.00,Engineering,Sydney,88.6,Inactive

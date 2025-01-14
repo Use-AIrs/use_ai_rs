@@ -1,11 +1,14 @@
 [workspace]
 resolver = "2"
 members = [
-    "crates/lib-core",
-    "crates/lib-model",
-    "crates/lib-staging",
-    "crates/lib-test",
-    "crates/playground",
+    # These are the core libarys
+    "crates/core/lib-operator",
+    "crates/core/lib-transformer",
+    "crates/core/lib-store",
+    "crates/core/playground",
+
+    # Tools for exploring options and a demonstration of an imlpemantation in the form of CLIs
+    "crates/use-ai",
 ]
 
 [profile.release]
