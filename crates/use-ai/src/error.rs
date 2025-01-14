@@ -1,6 +1,6 @@
 use inquire::InquireError;
-use thiserror::Error;
 use lib_store::error::StagingError;
+use thiserror::Error;
 
 pub type Result<T> = core::result::Result<T, ToolError>;
 

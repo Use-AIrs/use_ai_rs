@@ -4,8 +4,8 @@ pub mod for_raw_table;
 use crate::error::{Result, TransformerError};
 
 use ndarray::Array2;
+use rayon::iter::{IntoParallelRefIterator, ParallelIterator};
 use std::collections::HashMap;
-use rayon::iter::{IntoParallelRefIterator, ParallelIterator, };
 
 #[derive(Debug)]
 pub struct Table {

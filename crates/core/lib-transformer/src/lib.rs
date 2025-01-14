@@ -1,11 +1,11 @@
 use crate::config::DataSection;
-use crate::error::{Result, TransformerError};
 use crate::data::{RawTable, Table};
+use crate::error::{Result, TransformerError};
 
 pub mod config;
+pub mod data;
 #[allow(unused_imports, dead_code, unused_variables)]
 pub mod error;
-pub mod data;
 pub mod output_guard;
 
 pub fn transformer(instruction: DataSection) -> Result<()> {

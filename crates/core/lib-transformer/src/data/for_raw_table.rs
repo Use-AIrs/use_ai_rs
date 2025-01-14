@@ -1,10 +1,10 @@
-use rayon::prelude::*;
-use std::collections::HashMap;
-use csv::{ReaderBuilder, StringRecord};
-use ndarray::{stack, Array1, Array2, Axis};
 use crate::config::DataSection;
 use crate::data::RawTable;
 use crate::error::{Result, TransformerError};
+use csv::{ReaderBuilder, StringRecord};
+use ndarray::{stack, Array1, Array2, Axis};
+use rayon::prelude::*;
+use std::collections::HashMap;
 
 impl<T> RawTable<T> {
     pub fn from_csv(data: &DataSection) -> Result<RawTable<String>> {
@@ -51,7 +51,7 @@ pub fn build(path: String, input: Option<Vec<String>>) -> Result<RawTable<String
         Axis(0),
         &processed.iter().map(|arr| arr.view()).collect::<Vec<_>>(),
     )
-        .map_err(|e| TransformerError::ShapingError(e))?;
+    .map_err(|e| TransformerError::ShapingError(e))?;
 
     Ok(RawTable {
         header,
