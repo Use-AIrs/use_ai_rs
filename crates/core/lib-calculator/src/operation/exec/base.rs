@@ -4,6 +4,7 @@ pub trait PipelineExec<R: Runtime> {
     type Operator;
     type OperatorResult;
 
-    fn exec(self) -> Self::OperatorResult;
-    fn out(self) -> Self::OperatorResult;
+    fn input(op: Self::Operator) -> Self::OperatorResult;
+    fn exec(op: Self::Operator) -> Self::OperatorResult;
+
 }
