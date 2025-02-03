@@ -1,5 +1,6 @@
 use cubecl::Runtime;
 
+/// This trait is used to execute a reduction instruction.
 pub trait PipelineExec<R: Runtime> {
     type Operator;
     type OperatorResult;

@@ -5,6 +5,8 @@ use crate::MetaData;
 use cubecl::prelude::*;
 use cubecl::server::Handle;
 use cubecl::Runtime;
+use crate::operation::Operator;
+use crate::model::Operation;
 use lib_proc_macros::{ctx, operator};
 
 #[derive(Debug, Clone)]

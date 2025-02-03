@@ -31,7 +31,7 @@ pub fn operator(_attr: TokenStream, item: TokenStream) -> TokenStream {
             let #meta_ident = &self.#field_ident.0;
             let #handle_ident = &self.#field_ident.1;
             let #tensor_ident = unsafe {
-                TensorHandleRef::<R>::from_raw_parts(
+                TensorHandleRef::<'a, R>::from_raw_parts(
                     &#handle_ident,
                     &*#meta_ident.stride,
                     &*#meta_ident.shape,
@@ -42,9 +42,9 @@ pub fn operator(_attr: TokenStream, item: TokenStream) -> TokenStream {
     }
 
     let ret_type = if tensor_idents.len() == 1 {
-        quote! { TensorHandleRef<R> }
+        quote! { TensorHandleRef<'a, R> }
     } else {
-        let types = tensor_idents.iter().map(|_| quote! { TensorHandleRef<R> });
+        let types = tensor_idents.iter().map(|_| quote! { TensorHandleRef<'a, R> });
         quote! { (#(#types),*) }
     };
 
@@ -58,8 +58,9 @@ pub fn operator(_attr: TokenStream, item: TokenStream) -> TokenStream {
     let expanded = quote! {
         #input
 
-        impl #struct_ident {
-            pub fn tensor_refs<R: Runtime>(&self) -> #ret_type {
+        impl<R: Runtime> Operator<R> for #struct_ident {
+            type Tuple<'a> = #ret_type;
+            fn tensor_refs<'a>(&'a self) -> #ret_type {
                 #(#tensor_bindings)*
                 #ret_expr
             }

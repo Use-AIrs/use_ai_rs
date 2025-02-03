@@ -14,10 +14,8 @@ pub mod error;
 pub mod exec;
 pub mod push;
 
-pub trait Operation: Sized {
-    type Ctx;
-    type Operator;
-    type Output;
+pub trait Operator<R: Runtime> {
+    type Tuple<'a> where Self: 'a;
 
-    fn exec(ctx: Self::Ctx, operator: Self::Operator) -> Self::Output;
+    fn tensor_refs<'a>(&'a self) -> Self::Tuple<'a>;
 }
