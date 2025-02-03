@@ -37,9 +37,9 @@ The **Store** component provides a simple synchronous [MangoDB](https://www.mong
 
 The stored data can be downstreamed for further use.
 
-### Transformer
+### Stage
 
-The **Transformer** component processes and prepares abstract information for the Operator.  
+The **Stage** component processes and prepares abstract information for the Operator.  
 Key features:
 - Prepares data for downstream processing.
 - Parallelizes some operations using [Rayon](https://docs.rs/rayon/latest/rayon/) on the CPU.
