@@ -1,11 +1,11 @@
-use crate::operation::Operator;
+use crate::operation::{Context, Operator};
 use cubecl::Runtime;
 
 mod error;
 mod gbdt;
 
 pub trait Operation<R: Runtime>: Sized {
-    type Ctx;
+    type Ctx: Context;
     type Op: Operator<R>;
     type Output;
 

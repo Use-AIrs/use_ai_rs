@@ -120,8 +120,9 @@ pub fn ctx(_attr: TokenStream, item: TokenStream) -> TokenStream {
     let expanded = quote! {
         #input
 
-        impl #struct_ident {
-            pub fn tensor_refs(&self) -> #ret_type {
+        impl Context for #struct_ident {
+            type Tuple = #ret_type;
+            fn ctx_ref(&self) -> #ret_type {
                 #(#ctx_bindings)*
                 #ret_expr
             }

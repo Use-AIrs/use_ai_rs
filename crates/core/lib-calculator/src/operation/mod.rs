@@ -5,6 +5,7 @@
 //! For now, we just implement everything with pushes on the Cpu. But our approach will allow us to
 //! lower this mechanism completely into a Gpu kernel when introducing a counter and an allocator.
 
+
 use crate::operation::exec::base::PipelineExec;
 use crate::operation::push::base::PipelinePush;
 use cubecl::channel::ComputeChannel;
@@ -20,4 +21,10 @@ pub trait Operator<R: Runtime> {
         Self: 'a;
 
     fn tensor_refs<'a>(&'a self) -> Self::Tuple<'a>;
+}
+
+pub trait Context {
+    type Tuple;
+
+    fn ctx_ref(&self) -> Self::Tuple;
 }
