@@ -5,7 +5,6 @@
 //! For now, we just implement everything with pushes on the Cpu. But our approach will allow us to
 //! lower this mechanism completely into a Gpu kernel when introducing a counter and an allocator.
 
-
 use crate::operation::exec::base::PipelineExec;
 use crate::operation::push::base::PipelinePush;
 use cubecl::channel::ComputeChannel;

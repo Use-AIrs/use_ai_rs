@@ -2,7 +2,7 @@ mod gbdt_gen;
 mod gbdt_trainer;
 
 use crate::model::Operation;
-use crate::operation::{Operator, Context};
+use crate::operation::{Context, Operator};
 use crate::MetaData;
 use cubecl::prelude::*;
 use cubecl::server::Handle;

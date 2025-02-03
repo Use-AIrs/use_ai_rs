@@ -1,5 +1,5 @@
-use cubecl::prelude::*;
 use crate::model::Operation;
+use cubecl::prelude::*;
 
 pub struct GbdtTrainer;
 /*
