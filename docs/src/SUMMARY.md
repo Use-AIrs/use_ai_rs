@@ -16,7 +16,7 @@
     - [Config](calc/config.md)
     - [Operation](calc/operation.md)
 - [Blog](blog/README.md)
-  - [New Blog](blog/new.md)
+  - [New Blog](blog/3.md)
   - [Approach](blog/2.md)
   - [Tool Demo](blog/1.md)
   - [Welcome](blog/0.md)
