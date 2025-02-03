@@ -44,7 +44,9 @@ pub fn operator(_attr: TokenStream, item: TokenStream) -> TokenStream {
     let ret_type = if tensor_idents.len() == 1 {
         quote! { TensorHandleRef<'a, R> }
     } else {
-        let types = tensor_idents.iter().map(|_| quote! { TensorHandleRef<'a, R> });
+        let types = tensor_idents
+            .iter()
+            .map(|_| quote! { TensorHandleRef<'a, R> });
         quote! { (#(#types),*) }
     };
 

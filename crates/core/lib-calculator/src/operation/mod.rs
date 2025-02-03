@@ -15,7 +15,9 @@ pub mod exec;
 pub mod push;
 
 pub trait Operator<R: Runtime> {
-    type Tuple<'a> where Self: 'a;
+    type Tuple<'a>
+    where
+        Self: 'a;
 
     fn tensor_refs<'a>(&'a self) -> Self::Tuple<'a>;
 }
