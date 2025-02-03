@@ -1,19 +1,25 @@
 use proc_macro::TokenStream;
 use quote::{format_ident, quote};
-use syn::{parse_macro_input, Fields, ItemStruct};
+use syn::{parse_macro_input, Field, Fields, ItemStruct};
+
+fn get_fields(input: &ItemStruct) -> Result<Vec<&Field>, syn::Error> {
+    match &input.fields {
+        Fields::Named(fields_named) => Ok(fields_named.named.iter().collect()),
+        _ => Err(syn::Error::new_spanned(
+            input,
+            "Expected a struct with named fields",
+        )),
+    }
+}
 
 #[proc_macro_attribute]
 pub fn operator(_attr: TokenStream, item: TokenStream) -> TokenStream {
     let input = parse_macro_input!(item as ItemStruct);
     let struct_ident = input.ident.clone();
 
-    let fields = match input.fields {
-        Fields::Named(ref fields_named) => fields_named.named.iter().collect::<Vec<_>>(),
-        _ => {
-            return syn::Error::new_spanned(&input, "Expected a struct with named fields")
-                .to_compile_error()
-                .into();
-        }
+    let fields = match get_fields(&input) {
+        Ok(f) => f,
+        Err(err) => return err.to_compile_error().into(),
     };
 
     let mut tensor_bindings = Vec::new();
@@ -77,13 +83,9 @@ pub fn ctx(_attr: TokenStream, item: TokenStream) -> TokenStream {
     let input = parse_macro_input!(item as ItemStruct);
     let struct_ident = input.ident.clone();
 
-    let fields = match input.fields {
-        Fields::Named(ref fields_named) => fields_named.named.iter().collect::<Vec<_>>(),
-        _ => {
-            return syn::Error::new_spanned(&input, "Expected a struct with named fields")
-                .to_compile_error()
-                .into();
-        }
+    let fields = match get_fields(&input) {
+        Ok(f) => f,
+        Err(err) => return err.to_compile_error().into(),
     };
 
     let mut ctx_bindings = Vec::new();
