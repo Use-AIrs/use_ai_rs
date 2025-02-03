@@ -1,6 +1,9 @@
-pub trait PipelineExec {
-    type Output;
+use cubecl::Runtime;
 
-    fn exec(self) -> Self::Output;
-    fn finish(self) -> Self::Output;
+pub trait PipelineExec<R: Runtime> {
+    type Operator;
+    type OperatorResult;
+
+    fn exec(self) -> Self::OperatorResult;
+    fn out(self) -> Self::OperatorResult;
 }

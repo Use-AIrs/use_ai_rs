@@ -1,5 +1,8 @@
-# Introduction
+### Welcome to the new Blog
 
-**Work in Progress**
+As you may have noticed the new Blogs place will also will be used as entry place for the *Use-AI.rs* Documentation. This
+was decided due to the fact, that it's easier to maintain a good documentation within the codebase compared to an external
+Application. So, **Welcome to the new Documentation!** This blog will be useful to communicate changes and discuss
+development decisions for future users of the Framework.
 
-Will start with [Calculator](calc/README.md) since i start to implement the GPU layer and that helps to document whiles building the construction. 
+#### Work in Progress

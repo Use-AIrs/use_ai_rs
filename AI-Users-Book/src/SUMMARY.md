@@ -1,7 +1,6 @@
 # Summary
 
 [Introduction](README.md)
-
 - [Tooling](tooling/README.md)
     - [Test AI](tooling/testai.md)
     - [Use AI](tooling/useai.md)
@@ -15,5 +14,6 @@
     - [Data Output](stage/output.md)
 - [Calculator](calc/README.md)
     - [Config](calc/config.md)
-    - [Context](calc/ctx.md)
     - [Operation](calc/operation.md)
+- [Blog](blog/README.md)
+  - [New Blog](blog/1.md)
